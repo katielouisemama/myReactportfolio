@@ -1,0 +1,152 @@
+/* Main container */
+.skills-container {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+  
+  }
+
+
+  .skills-container.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+  
+  /* Grid layout for the skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20%;
+  
+  }
+  
+  /* Individual skill card styling */
+  .skill-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Icon styling within each card */
+  .skill-card svg {
+    font-size: 3em;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 05);
+  }
+  
+  .skill-card:hover svg {
+    transform: scale(1.2);
+  }
+
+  .skills-container h3{
+
+    font-size: 50px;
+   
+  }
+  
+  .skills-container p{
+    margin-top: 10px;
+    font-size: x-large;
+  }
+  .html{
+    color: red;
+  }
+  .css{
+    color: blue;
+  }
+  .java{
+    color: yellow;
+  }
+  .react{
+    color: lightskyblue;
+  }
+  .redux{
+    color: purple;
+  }
+.bootstrap{
+    color: purple;
+}
+.Tailwind{
+    color: lightskyblue;
+}
+.Sass{
+    color: purple;
+}
+.Git{
+    color: red;
+}
+.vscode{
+    color:royalblue;
+}
+.GitHub{
+    color: black;
+}
+
+
+
+
+
+
+
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      margin: 20px;
+      padding: 0 10px;
+    }
+  
+    .skill-card {
+      width: 80px;
+      height: 80px;
+      flex-direction: column; 
+    }
+  
+    .skill-card svg {
+      font-size: 2em;
+    }
+
+    .skill-card p {
+        font-size: 0.8em; /* Smaller text for mobile */
+    }
+    .skills-container p{
+      font-size: medium;
+    }
+      .skills-container  h2{
+        font-size: 2em;
+      }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+.footer-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding-top: 10%;
+  background-color: #e6f2e6;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+ 
+  font-size: 1.2em;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 10px 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+ 
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-credit {
+  font-size: 0.9em;
+}
+
+.footer-credit a {
+  color: #333;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-nav a {
+    font-size: 1em;
+  }
+
+  .social-icons a {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand {
+    font-size: 1.1em;
+  }
+
+  .contact-info p {
+    font-size: 0.9em;
+  }
+
+  .footer-credit {
+    font-size: 0.8em;
+  }
+
+  .footer-nav {
+    gap: 8px;
+  }
+}
