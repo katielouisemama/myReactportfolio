@@ -61,13 +61,13 @@
 
   .skills-container h3{
 
-    font-size: 50px;
+    font-size: xx-large;
    
   }
   
   .skills-container p{
     margin-top: 10px;
-    font-size: x-large;
+    font-size: medium;
   }
   .html{
     color: red;
