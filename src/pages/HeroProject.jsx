@@ -20,6 +20,19 @@ const projects = [
     description: 'This project is a clone of the Binance page, featuring simple styling for an enhanced user interface.',
     link: 'https://investor-wallflex.github.io/binance/'
   },
+
+  {
+    title: 'kuda Clone',
+    image: 'image/a.jpg',
+    description: 'This project is a clone of the Binance page, featuring simple styling for an enhanced user interface.',
+    link: 'https://investor-wallflex.github.io/binance/'
+  },
+  {
+    title: 'kuda Clone',
+    image: 'image/a.jpg',
+    description: 'This project is a clone of the Binance page, featuring simple styling for an enhanced user interface.',
+    link: 'https://investor-wallflex.github.io/binance/'
+  },
 ];
 
 const HeroProject = () => {

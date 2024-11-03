@@ -28,6 +28,7 @@ function AboutMe() {
   }, []);
 
   return (
+    <div className="about-meContainer">
     <div id="about-me" className="about-me" ref={aboutMeRef}>
       <section className="about-section">
         <h1>About Me</h1>
@@ -74,6 +75,7 @@ function AboutMe() {
           </li>
         </ul>
       </section>
+    </div>
     </div>
   );
 }

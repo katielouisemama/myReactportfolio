@@ -1,4 +1,4 @@
-import Hero from "./pages/Hero"
+import Profile from "./pages/Pofile"
 import Header from "./static/Header"
 import Skills from "./pages/Skills"
 import HeroProject from "./pages/HeroProject"
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
      <Header />
-    <Hero/>
+    <Profile/>
     <AboutMe />
     <Skills />
     <HeroProject/>

@@ -1,13 +1,19 @@
+.about-meContainer{
+  background-color: #f5fffa;
+}
+
+
 .about-me {
-    background-color: #f5fffa;
+   
     padding: 20px;
-    min-width: 100%;
+    
     margin: 0 auto;
     line-height: 1.6;
     opacity: 0;
     transform: translateX(-50px);
     transition: opacity 0.9s ease-out, transform 0.9s ease-out;
     min-height: 100vh;
+    max-width: 500px;
   
     
   }
@@ -26,6 +32,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
+    
   }
   
   .about-section, .experience-section, .education-section {

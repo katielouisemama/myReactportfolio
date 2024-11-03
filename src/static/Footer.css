@@ -4,7 +4,7 @@
   font-family: Arial, sans-serif;
   color: #333;
   padding-top: 10%;
-  background-color: #e6f2e6;
+  background-color: #f9f5f0;
 }
 
 .footer-content {
@@ -37,7 +37,7 @@
 
 .social-icons a {
   margin: 0 5px;
- 
+  color: rgb(204,0,136);
   font-size: 1.2em;
 }
 
@@ -83,6 +83,7 @@
 
   .footer-nav a {
     font-size: 1em;
+    
   }
 
   .social-icons a {

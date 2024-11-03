@@ -10,8 +10,8 @@ function Hero (){
         <>
         <div className="main-container"> 
             <div className="left-div">
-            <h1>Hi 👋</h1>
-             <h2>My name is <br /> <span>Sharafa Wale Mustapha,</span>  <br />I’m a front-end developer </h2>
+            <h2>Hello 👋</h2>
+             <h2>I'm  <span> Wale ,</span> a Passionate <br /> Front-end Developer </h2>
             
             </div>
             <div className="right-div">
