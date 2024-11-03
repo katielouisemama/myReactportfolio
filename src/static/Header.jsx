@@ -1,21 +1,18 @@
 import "./Header.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaBars } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdMailOutline, MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 
-
 function Header() {
   // for menu on mobile
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-
-  const [isDarkMode, setIsDarkMode] = useState(false);
+ 
 
   // Toggle theme background color
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+ 
+
+ 
 
   return (
     <div>
@@ -41,10 +38,10 @@ function Header() {
         </nav>
 
         {/* Dark Mode Toggle */}
-        <label className="rocker rocker-small" onClick={toggleTheme}>
-          <input type="checkbox" />
-          <span id="theme-toggle" className="switch-left"><MdOutlineDarkMode /></span>
-          <span id="theme-toggle" className="switch-right"><MdDarkMode /></span>
+        <label className="rocker rocker-small"  >
+          <input type="checkbox"  />
+          <span  className="switch-left"><MdOutlineDarkMode /></span>
+          <span  className="switch-right"><MdDarkMode /></span>
         </label>
       </header>
     </div>

@@ -5,6 +5,7 @@ import { MdVerified } from "react-icons/md";
 import { FaBirthdayCake } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 import { FaCode } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Profile = () => {
   return (
@@ -20,7 +21,7 @@ const Profile = () => {
         <p className="bio">
             Entry-level developer with a knack for creativity <br />and a strong foundation in coding principles. <br /> Committed to continuous learning and improving  <br />my skills in front-end.
         </p>
-        <button className="follow-button"><a href="">Follow</a></button>
+        <button className="follow-button"><a href="https://x.com/wallflex2?s=21">Follow <FaXTwitter /></a></button>
       </div>
       <div className="profile-links">
         <span className="icon">🔗</span>
