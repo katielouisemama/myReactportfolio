@@ -8,3 +8,36 @@ body{
 html {
   scroll-behavior: smooth;
 }
+
+::root {
+  --component-bg-color: Default; /* Light background for components */
+  --body-bg-color: #ffffff; /* Default body background color */
+  --text-color: #000000; /* Default text color */
+}
+
+/* Dark mode overrides */
+.dark-mode {
+  --component-bg-color: #000000; /* Dark background for components */
+  --body-bg-color: #1a1a1a; /* Dark body background color */
+  --text-color:red; /* Light text color */
+}
+
+/* Apply these variables to your elements */
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+/* Apply background color to all components */
+.component {
+  background-color: var(--component-bg-color);
+}
+
+/* Specific component styles */
+.component-1 {
+  /* other styling, if any */
+}
+
+.component-2 {
+  /* other styling, if any */
+}

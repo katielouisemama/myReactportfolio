@@ -6,14 +6,15 @@
 .about-me {
    
     padding: 20px;
-    
+    max-width: 500px;
     margin: 0 auto;
     line-height: 1.6;
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-50%);
     transition: opacity 0.9s ease-out, transform 0.9s ease-out;
     min-height: 100vh;
-    max-width: 500px;
+   
+   
   
     
   }

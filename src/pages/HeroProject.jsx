@@ -25,10 +25,10 @@ const projects = [
     title: 'Binance Clone',
     image: binancepicture,
     description: 'This project is a clone of the Binance page, featuring simple styling for an enhanced user interface.',
-    link: 'https://investor-wallflex.github.io/binance/'
+    link: 'https://binance-psi.vercel.app/'
   },
 
-  {
+  { 
     title: 'Kuda Clone',
     image: kudapicture,
     description: 'This project is a responsive clone of the Kuda Bank website, built to enhance my front-end development skills. By recreating the design and ensuring adaptability across different screen sizes, I aimed to improve my understanding of responsive layouts and modern CSS techniques. This project allowed me to refine my skills in structuring and styling complex user interfaces, focusing on creating a seamless experience across devices.',
@@ -81,7 +81,7 @@ const HeroProject = () => {
   }, []);
 
   return (
-    <div className="projects-section" ref={sectionRef}>
+    <div id='projects' className="projects-section" ref={sectionRef}>
       <h1>My Portfolio</h1>
       <p>Some of my recent projects</p>
       <section className="projects-list" id="projects">

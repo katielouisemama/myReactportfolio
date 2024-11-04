@@ -28,8 +28,8 @@ function AboutMe() {
   }, []);
 
   return (
-    <div className="about-meContainer">
-    <div id="about-me" className="about-me" ref={aboutMeRef}>
+    <div id="about" className="about-meContainer"  >
+    <div  className="about-me" ref={aboutMeRef} > {/* this line of code aboume ref help when the a tag of about is clicked it scroll to my about section*/}
       <section className="about-section">
         <h1>About Me</h1>
         <p>

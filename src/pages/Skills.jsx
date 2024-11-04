@@ -30,7 +30,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills-container" ref={containerRef}>
+    <div id='skills' className="skills-container" ref={containerRef}>
       <h3>My Tech Skills</h3>
       <p>Recent tools and technologies I’ve adopted</p>
 

@@ -4,6 +4,8 @@ import Skills from "./pages/Skills"
 import HeroProject from "./pages/HeroProject"
 import Footer from "./static/Footer"
 import AboutMe from "./pages/AboutMe"
+import React from 'react';
+
 
 
 
