@@ -32,13 +32,12 @@ const Footer = () => {
 
         </div>
         <div className="contact-info">
-          <p><BsFillTelephoneFill />+234 902 537 5109</p>
-          <p><CiMail />mustaphasharafa70@gmail.com</p>
+          <p><BsFillTelephoneFill />+234 904 4200 010</p>
+          <p><CiMail />valentineemicheal@gmail.com</p>
         </div>
         <div className="social-icons">
-          <a href="https://github.com/investor-wallflex" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://x.com/wallflex2?s=21" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
-          <a href="https://www.linkedin.com/in/sharafa-wale-mustapha-a20a88109?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://github.com/katielouisemama" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/inyang-valentine-a6b748325/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </div>
       <hr className="footer-divider" />
@@ -51,7 +50,7 @@ const Footer = () => {
       </nav>
       <p className="footer-credit">
 
-         © {currentYear} investor-wallflex.github.io. All rights reserved.
+         © {currentYear}  All rights reserved.
       </p>
     </footer>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import profileImage from '../assets/kl.png'; 
+import profileImage from '../assets/myimage.png'; 
 import { MdVerified } from "react-icons/md";
 import { FaBirthdayCake } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";

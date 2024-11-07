@@ -39,9 +39,8 @@ function Header() {
           <a href="#skills">Skills</a>
           <a href="#projects">Project</a>
           <a href="#">Contact</a>
-          <a href="https://github.com/investor-wallflex"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/sharafa-wale-mustapha-a20a88109?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><FaLinkedin /></a>
-          <a href="https://x.com/wallflex2?s=21"><FaXTwitter /></a>
+          <a href="https://github.com/katielouisemama"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/inyang-valentine-a6b748325/"><FaLinkedin /></a>
           <a href=""><MdMailOutline /></a>
         </nav>
 
